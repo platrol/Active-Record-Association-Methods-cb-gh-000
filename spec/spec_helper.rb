@@ -1,7 +1,7 @@
 ENV["PLAYLISTER_ENV"] = "test"
-ActiveRecord::Migration.verbose = false
-require_relative '../config/environment'
 
+require_relative '../config/environment'
+ActiveRecord::Migration.verbose = false
 RSpec.configure do |config|
   config.order = 'default'
 
